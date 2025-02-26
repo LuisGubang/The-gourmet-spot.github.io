@@ -35,21 +35,33 @@ nav ul li a:hover {
     background-color: #b22222;
 }
 
-main {
-    padding: 20px;
+section {
+    padding: 50px;
+    border-bottom: 2px solid #ddd;
 }
 
-img {
-    width: 200px;
+form input {
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    max-width: 300px;
+}
+
+button {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
     margin-top: 10px;
-    border: 2px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8b0000;
 }
 
 footer {
     background-color: #333;
     color: white;
     padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
