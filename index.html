@@ -7,27 +7,61 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Header Section -->
     <header>
         <h1>The Gourmet Spot</h1>
     </header>
-    
+
+    <!-- Navigation Menu -->
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <main>
-        <section class="intro">
-            <p>Welcome to <strong>The Gourmet Spot</strong>, where we serve exquisite cuisine in a cozy ambiance. Our chefs specialize in gourmet dishes that bring flavors to life.</p>
-            <img src="name-image.jpg" alt="Handwritten name">
-        </section>
-    </main>
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to The Gourmet Spot</h2>
+        <p>Enter your details below:</p>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required><br>
+            
+            <label for="admission">Admission Number:</label>
+            <input type="text" id="admission" placeholder="Enter admission number" required><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li>Grilled Chicken - $12</li>
+            <li>Beef Steak - $15</li>
+            <li>Vegetable Pasta - $10</li>
+            <li>Fresh Juice - $5</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📞 Phone: +254741238619</p>
+        <p>📍 Restaurant Name: The Gourmet Spot</p>
+    </section>
+
+    <!-- Footer Section -->
     <footer>
         <p>Full Name: [Your Name] | Admission Number: [Your ID] | Email: [Your Email]</p>
     </footer>
+
 </body>
 </html>
