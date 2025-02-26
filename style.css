@@ -1,11 +1,9 @@
 /* General Styles */
 body {
-    font-family: 'Georgia', serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
 }
 
 /* Header Section */
@@ -18,8 +16,6 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
-    font-family: 'Playfair Display', serif;
 }
 
 /* Navigation Menu */
@@ -44,7 +40,6 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2em;
-    font-family: 'Playfair Display', serif;
 }
 
 nav ul li a:hover {
@@ -59,54 +54,14 @@ section {
 
 section h2 {
     color: #333;
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    margin-bottom: 20px;
 }
 
-/* Small Image */
-.small-image {
-    width: 200px; /* Smaller size */
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border: 5px solid #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Menu Section */
-.menu-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.menu-item {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.menu-item h3 {
-    font-family: 'Playfair Display', serif;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.menu-item p {
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 10px;
-}
-
-.menu-item .price {
-    font-size: 1.2em;
-    color: #333;
-    font-weight: bold;
+/* Medium-sized image */
+img {
+    width: 500px; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center the image */
+    margin: 20px auto; /* Add some margin for spacing */
 }
 
 /* Footer Section */
